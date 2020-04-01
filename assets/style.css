@@ -1,0 +1,22 @@
+body{
+    background-color: #050708;
+    color: #FCDA2E;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.single-cell{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    background-color: white;
+}

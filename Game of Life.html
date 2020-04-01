@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <title>
+            Game of Life 
+        </title>
+
+        <link rel="stylesheet" href="./assets/style.css" />
+
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="container">
+                <div class="top">
+                    <h1>Game of Life</h1>
+                </div>
+                <div class="main-grid">
+                    <div class="single-cell" id="c0"></div>
+                    <div class="single-cell" id="c1"></div>
+                    <div class="single-cell" id="c2"></div>
+                    <div class="single-cell" id="c3"></div>
+                    <div class="single-cell" id="c4"></div>
+                    <div class="single-cell" id="c5"></div>
+                    <div class="single-cell" id="c6"></div>
+                    <div class="single-cell" id="c7"></div>
+                    <div class="single-cell" id="c8"></div>
+                    <div class="single-cell" id="c9"></div>
+                    <div class="single-cell" id="c10"></div>
+                    <div class="single-cell" id="c11"></div>
+                    <div class="single-cell" id="c12"></div>
+                    <div class="single-cell" id="c13"></div>
+                    <div class="single-cell" id="c14"></div>
+                    <div class="single-cell" id="c15"></div>
+                    <div class="single-cell" id="c16"></div>
+                    <div class="single-cell" id="c17"></div>
+                    <div class="single-cell" id="c18"></div>
+                    <div class="single-cell" id="c19"></div>
+                    <div class="single-cell" id="c20"></div>
+                    <div class="single-cell" id="c21"></div>
+                    <div class="single-cell" id="c22"></div>
+                    <div class="single-cell" id="c23"></div>
+                    <div class="single-cell" id="c24"></div>
+                    <div class="single-cell" id="c25"></div>
+                    <div class="single-cell" id="c26"></div>
+                    <div class="single-cell" id="c27"></div>
+                    <div class="single-cell" id="c28"></div>
+                    <div class="single-cell" id="c29"></div>
+                    <div class="single-cell" id="c30"></div>
+                    <div class="single-cell" id="c31"></div>
+                    <div class="single-cell" id="c32"></div>
+                    <div class="single-cell" id="c33"></div>
+                    <div class="single-cell" id="c34"></div>
+                    <div class="single-cell" id="c35"></div>
+                    <div class="single-cell" id="c36"></div>
+                    <div class="single-cell" id="c37"></div>
+                    <div class="single-cell" id="c38"></div>
+                    <div class="single-cell" id="c39"></div>
+                    <div class="single-cell" id="c40"></div>
+                    <div class="single-cell" id="c41"></div>
+                    <div class="single-cell" id="c42"></div>
+                    <div class="single-cell" id="c43"></div>
+                    <div class="single-cell" id="c44"></div>
+                    <div class="single-cell" id="c45"></div>
+                    <div class="single-cell" id="c46"></div>
+                    <div class="single-cell" id="c47"></div>
+                    <div class="single-cell" id="c48"></div>
+                    <div class="single-cell" id="c49"></div>
+                    <div class="single-cell" id="c50"></div>
+                    <div class="single-cell" id="c51"></div>
+                    <div class="single-cell" id="c52"></div>
+                    <div class="single-cell" id="c53"></div>
+                    <div class="single-cell" id="c54"></div>
+                    <div class="single-cell" id="c55"></div>
+                    <div class="single-cell" id="c56"></div>
+                    <div class="single-cell" id="c57"></div>
+                    <div class="single-cell" id="c58"></div>
+                    <div class="single-cell" id="c59"></div>
+                    <div class="single-cell" id="c60"></div>
+                    <div class="single-cell" id="c61"></div>
+                    <div class="single-cell" id="c62"></div>
+                    <div class="single-cell" id="c63"></div>
+                    <div class="single-cell" id="c64"></div>
+                    <div class="single-cell" id="c65"></div>
+                    <div class="single-cell" id="c66"></div>
+                    <div class="single-cell" id="c67"></div>
+                    <div class="single-cell" id="c68"></div>
+                    <div class="single-cell" id="c69"></div>
+                    <div class="single-cell" id="c70"></div>
+                    <div class="single-cell" id="c71"></div>
+                    <div class="single-cell" id="c72"></div>
+                    <div class="single-cell" id="c73"></div>
+                    <div class="single-cell" id="c74"></div>
+                    <div class="single-cell" id="c75"></div>
+                    <div class="single-cell" id="c76"></div>
+                    <div class="single-cell" id="c77"></div>
+                    <div class="single-cell" id="c78"></div>
+                    <div class="single-cell" id="c79"></div>
+                    <div class="single-cell" id="c80"></div>
+                    <div class="single-cell" id="c81"></div>
+                    <div class="single-cell" id="c82"></div>
+                    <div class="single-cell" id="c83"></div>
+                    <div class="single-cell" id="c84"></div>
+                    <div class="single-cell" id="c85"></div>
+                    <div class="single-cell" id="c86"></div>
+                    <div class="single-cell" id="c87"></div>
+                    <div class="single-cell" id="c88"></div>
+                    <div class="single-cell" id="c89"></div>
+                    <div class="single-cell" id="c90"></div>
+                    <div class="single-cell" id="c91"></div>
+                    <div class="single-cell" id="c92"></div>
+                    <div class="single-cell" id="c93"></div>
+                    <div class="single-cell" id="c94"></div>
+                    <div class="single-cell" id="c95"></div>
+                    <div class="single-cell" id="c96"></div>
+                    <div class="single-cell" id="c97"></div>
+                    <div class="single-cell" id="c98"></div>
+                    <div class="single-cell" id="c99"></div>
+                    <div class="single-cell" id="c100"></div>
+                    <div class="single-cell" id="c101"></div>
+                    <div class="single-cell" id="c102"></div>
+                    <div class="single-cell" id="c103"></div>
+                    <div class="single-cell" id="c104"></div>
+                    <div class="single-cell" id="c105"></div>
+                    <div class="single-cell" id="c106"></div>
+                    <div class="single-cell" id="c107"></div>
+                    <div class="single-cell" id="c108"></div>
+                    <div class="single-cell" id="c109"></div>
+                    <div class="single-cell" id="c110"></div>
+                    <div class="single-cell" id="c111"></div>
+                    <div class="single-cell" id="c112"></div>
+                    <div class="single-cell" id="c113"></div>
+                    <div class="single-cell" id="c114"></div>
+                    <div class="single-cell" id="c115"></div>
+                    <div class="single-cell" id="c116"></div>
+                    <div class="single-cell" id="c117"></div>
+                    <div class="single-cell" id="c118"></div>
+                    <div class="single-cell" id="c119"></div>
+                    <div class="single-cell" id="c120"></div>
+                    <div class="single-cell" id="c121"></div>
+                    <div class="single-cell" id="c122"></div>
+                    <div class="single-cell" id="c123"></div>
+                    <div class="single-cell" id="c124"></div>
+                    <div class="single-cell" id="c125"></div>
+                    <div class="single-cell" id="c126"></div>
+                    <div class="single-cell" id="c127"></div>
+                    <div class="single-cell" id="c128"></div>
+                    <div class="single-cell" id="c129"></div>
+                    <div class="single-cell" id="c130"></div>
+                    <div class="single-cell" id="c131"></div>
+                    <div class="single-cell" id="c132"></div>
+                    <div class="single-cell" id="c133"></div>
+                    <div class="single-cell" id="c134"></div>
+                    <div class="single-cell" id="c135"></div>
+                    <div class="single-cell" id="c136"></div>
+                    <div class="single-cell" id="c137"></div>
+                    <div class="single-cell" id="c138"></div>
+                    <div class="single-cell" id="c139"></div>
+                    <div class="single-cell" id="c140"></div>
+                    <div class="single-cell" id="c141"></div>
+                    <div class="single-cell" id="c142"></div>
+                    <div class="single-cell" id="c143"></div>
+                    <div class="single-cell" id="c144"></div>
+                    <div class="single-cell" id="c145"></div>
+                    <div class="single-cell" id="c146"></div>
+                    <div class="single-cell" id="c147"></div>
+                    <div class="single-cell" id="c148"></div>
+                    <div class="single-cell" id="c149"></div>
+                    <div class="single-cell" id="c150"></div>
+                    <div class="single-cell" id="c151"></div>
+                    <div class="single-cell" id="c152"></div>
+                    <div class="single-cell" id="c153"></div>
+                    <div class="single-cell" id="c154"></div>
+                    <div class="single-cell" id="c155"></div>
+                    <div class="single-cell" id="c156"></div>
+                    <div class="single-cell" id="c157"></div>
+                    <div class="single-cell" id="c158"></div>
+                    <div class="single-cell" id="c159"></div>
+                    <div class="single-cell" id="c160"></div>
+                    <div class="single-cell" id="c161"></div>
+                    <div class="single-cell" id="c162"></div>
+                    <div class="single-cell" id="c163"></div>
+                    <div class="single-cell" id="c164"></div>
+                    <div class="single-cell" id="c165"></div>
+                    <div class="single-cell" id="c166"></div>
+                    <div class="single-cell" id="c167"></div>
+                    <div class="single-cell" id="c168"></div>
+                    <div class="single-cell" id="c169"></div>
+                    <div class="single-cell" id="c170"></div>
+                    <div class="single-cell" id="c171"></div>
+                    <div class="single-cell" id="c172"></div>
+                    <div class="single-cell" id="c173"></div>
+                    <div class="single-cell" id="c174"></div>
+                    <div class="single-cell" id="c175"></div>
+                    <div class="single-cell" id="c176"></div>
+                    <div class="single-cell" id="c177"></div>
+                    <div class="single-cell" id="c178"></div>
+                    <div class="single-cell" id="c179"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./assets/main.js"></script>
+    </body>
+</html>
